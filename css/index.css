@@ -20,6 +20,7 @@ header {
   padding: 20px 10%;
   top: 0;
   width: 100%;
+  user-select: none;
 }
 
 header, header * {
@@ -64,10 +65,36 @@ header, header * {
 /* конец панели навигации */
 
 #order {
+  padding: 10% 10% 10% 70%;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.order-container {
+  background-color: #ffffffa4;
+  min-height: 400px;
+  min-width: 300px;
+  border-style: solid;
+  border-radius: 35px;
+  border-color: black;
+}
+
+.order {
   padding: 10%;
 }
 
-#contact, #contact * {
+.order * {
+  padding: 9px 10px;
+}
+
+.order input {
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(0, 163, 204);
+}
+
+#footer, #footer * {
   background-color: cornflowerblue;
-  height: 200px;
+  height: 150px;
+  text-align: center;
 }
