@@ -73,7 +73,7 @@ header, header * {
 
 .about-text {
   text-align: center;
-  max-width: 750px;
+  max-width: 800px;
 }
 
 .about-text p {
@@ -84,7 +84,7 @@ header, header * {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 200px 10%;
+  padding: 200px 15%;
   top: 0;
 }
 
