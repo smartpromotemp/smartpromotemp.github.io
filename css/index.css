@@ -64,6 +64,37 @@ header, header * {
 
 /* конец панели навигации */
 
+#about {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.about-text {
+  text-align: center;
+  max-width: 750px;
+}
+
+.about-text p {
+  margin: 20px;
+}
+
+#services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  max-width: 750px;
+}
+
+#services div {
+  border-style: solid;
+  border-color: black;
+  border-radius: 50px;
+  min-width: 200px;
+  min-height: 450px;
+}
+
 #order {
   padding: 10% 10% 10% 70%;
   flex-wrap: wrap;
@@ -94,8 +125,23 @@ header, header * {
   background-color: rgb(0, 163, 204);
 }
 
-#footer, #footer * {
+#footer {
   background-color: cornflowerblue;
   height: 150px;
   text-align: center;
 }
+
+#footer * {
+  padding: 3px;
+  background-color: cornflowerblue;
+}
+
+/*#fish {
+  background-image: linear-gradient(transparent 10%, currentColor 30%, currentColor 70%, transparent 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-attachment: fixed;
+}
+#fish > * {
+  color: transparent;
+}*/
