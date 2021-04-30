@@ -82,9 +82,10 @@ header, header * {
 
 #services {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
-  padding: 200px 15%;
+  padding: 200px 5%;
   top: 0;
 }
 
@@ -92,14 +93,17 @@ header, header * {
   border-style: solid;
   border-color: black;
   border-radius: 50px;
-  width: 200px;
+  width: 350px;
   height: 300px;
+  margin: 2%;
+  align-self: center;
 }
 
 #services div img {
+  position: static;
   height: auto;
-  width: 195px;
-  border-radius: 50px 50px 0 0;
+  width: 344px;
+  border-radius: 47px 47px 0 0;
 }
 
 #order {
@@ -132,7 +136,11 @@ header, header * {
   background-color: rgb(0, 163, 204);
 }
 
+/* Начало футера */
+
 #footer {
+  display: flex;
+  flex-direction: column;
   background-color: cornflowerblue;
   height: 150px;
   text-align: center;
@@ -143,12 +151,8 @@ header, header * {
   background-color: cornflowerblue;
 }
 
-/*#fish {
-  background-image: linear-gradient(transparent 10%, currentColor 30%, currentColor 70%, transparent 90%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  background-attachment: fixed;
+.email {
+  align-self: flex-end center;
 }
-#fish > * {
-  color: transparent;
-}*/
+
+/* Конец футера */
