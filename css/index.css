@@ -82,6 +82,21 @@ header, header * {
 
 #services {
   display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#services div {
+  background-image: url(../src/icon404.jpg);
+  width: 100%;
+}
+
+#services img {
+  width: 100%;
+}
+
+#portfolio {
+  display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
@@ -89,7 +104,7 @@ header, header * {
   top: 0;
 }
 
-#services div {
+#portfolio div {
   border-style: solid;
   border-color: black;
   border-radius: 50px;
@@ -99,7 +114,7 @@ header, header * {
   align-self: center;
 }
 
-#services div img {
+#portfolio div img {
   position: static;
   height: auto;
   width: 344px;
@@ -156,3 +171,8 @@ header, header * {
 }
 
 /* Конец футера */
+
+.test {
+  background-color: blue;
+  height: 90vh;
+}
